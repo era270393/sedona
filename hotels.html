@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title-2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="libs/nouislider/nouislider.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <nav class="header-nav">
+            <ul class="header-nav-ul">
+                <li class="header-ul-li"><a href="index.html" class="header-link header-link-text">Информация</a></li>
+                <li class="header-ul-li"><a href="#" class="header-link">Фото и видео</a></li>
+                <li class="header-ul-li"></li>
+                <li class="header-ul-li"><a href="#" class="header-link">Карта штата</a></li>
+                <li class="header-ul-li"><a href="#" class="header-link">Гостиницы</a></li>
+            </ul>
+            <div>
+                <img class="header-logo" src="img/logo.svg" alt="logo">
+            </div>
+        </nav>
+        <div>
+            <img class="header-menu" src="img/burger.jpeg" alt="">
+        </div>
+    </header>
+    <div class="search-params">
+        <div class="row price-row">
+            <div class="searchs">
+                <div class="search-params-col">
+                    <div class="search-params-title">Инфраструктура:</div>
+                    <label class="params-label">
+                        <input class="input-checkbox" type="checkbox">
+                        <span class="params-span">Бассейн</span>
+                    </label>
+                    <label class="params-label">
+                        <input  class="input-checkbox" type="checkbox">
+                        <span class="params-span">Парковка</span>
+                    </label>
+                    <label class="params-label">
+                        <input disabled class="input-checkbox" type="checkbox">
+                        <span class="params-span">Wi-Fi</span>
+                    </label>
+                </div>
+                <div class="search-params-col-1">
+                    <div class="search-params-title">Тип жилья:</div>
+                    <label class="params-label">
+                        <input checked class="input-checkbox" type="checkbox">
+                        <span class="params-span">Гостиница</span>
+                    </label>
+                    <label class="params-label">
+                        <input checked class="input-checkbox" type="checkbox">
+                        <span class="params-span">Мотель</span>
+                    </label>
+                    <label class="params-label">
+                        <input disabled checked class="input-checkbox" type="checkbox">
+                        <span class="params-span ">Апартаменты</span>
+                    </label>
+                </div>
+            </div>
+            <div class="price">
+                <div class="price-title">Стоимость в сутки (Р):</div>
+                <div class="price-input">
+                    <label>
+                        <input class="price-input-1" type="text" value="ОТ 0">
+                    </label>
+                    <label>
+                        <input class="price-input-1" readonly type="text" value="ДО 3000">
+                    </label>
+                </div>
+                <div id="slider"></div>
+
+                <div class="price-but">
+                    <button class="price-button" type="button">Показать</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="found">
+        <div class="found-title">
+            <div class="found-title-text">Найдено: 3</div>
+            <div class="found-text">
+                <div class="found-text-1">Сортировка:</div>
+                <div class="found-text-1 found-text-01">По цене</div>
+                <div class="found-text-1">По типу</div>
+                <div class="found-text-1 found-text-02">По рейтингу</div>
+            </div>
+        </div>
+        <div class="found-img">
+            <img class="found-img-1" src="img/found.svg" alt="found">
+            <img class="found-img-2" src="img/found-2.svg" alt="found-2">
+        </div>
+    </div>
+    <div class="amara-resort">
+        <div class="row amara-resort-row">
+            <div class="amara-resort-blog">
+                <div class="amara-resort-col">
+                    <div class="amara-resort-photo">
+                        <img src="img/Layer%2021.svg" alt="photo">
+                    </div>
+                </div>
+                <div class="amara-resort-col">
+                    <div class="amara-resort-title">
+                        <div class="amara-resort-title-text amara-1">Amara Resort & Spa</div>
+                        <span class="amara-resort-title-house">Гостиница</span>
+                        <span class="amara-resort-title-price">От 4000 Р.</span>
+                        <div class="amara-resort-title-button">
+                            <button class="amara-resort-title-button-01 amara-button-1" type="button">Подробнее</button>
+                            <button class="amara-resort-title-button-02" type="button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="amara-resort-zvezda">
+                <img class="amara-resort-zvezda-one" src="img/zvezda.svg" alt="photo">
+                <img class="amara-resort-zvezda-one" src="img/zvezda.svg" alt="photo">
+                <img class="amara-resort-zvezda-one" src="img/zvezda.svg" alt="photo">
+                <img class="amara-resort-zvezda-one" src="img/zvezda.svg" alt="photo">
+                <div class="amara-resort-zvezda-button">
+                    <button class="amara-resort-zvezda-button-4" type="button">Рейтинг: 8,5</button>
+                </div>
+            </div>
+        </div>
+        <div class="row amara-resort-row">
+            <div class="amara-resort-blog">
+                <div class="amara-resort-col">
+                    <div class="amara-resort-photo">
+                        <img src="img/Layer-2.svg" alt="photo">
+                    </div>
+                </div>
+                <div class="amara-resort-col">
+                    <div class="amara-resort-title">
+                        <div class="amara-resort-title-text">Desert Quail Inn</div>
+                        <span class="amara-resort-title-house">Мотель</span>
+                        <span class="amara-resort-title-price-1">От 3000 Р.</span>
+                        <div class="amara-resort-title-button">
+                            <button class="amara-resort-title-button-01" type="button">Подробнее</button>
+                            <button class="amara-resort-title-button-02" type="button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="amara-resort-zvezda-1">
+                <img class="amara-resort-zvezda-one" src="img/zvezda.svg" alt="photo">
+                <img class="amara-resort-zvezda-one" src="img/zvezda.svg" alt="photo">
+                <img class="amara-resort-zvezda-one" src="img/zvezda.svg" alt="photo">
+                <div class="amara-resort-zvezda-button">
+                </div>
+                <button class="amara-resort-zvezda-button-4" type="button">Рейтинг: 8,9</button>
+            </div>
+        </div>
+        <div class="row amara-resort-row">
+            <div class="amara-resort-blog">
+                <div class="amara-resort-col">
+                    <div class="amara-resort-photo">
+                        <img src="img/Layer-3.svg" alt="photo">
+                    </div>
+                </div>
+                <div class="amara-resort-col">
+                    <div class="amara-resort-title">
+                        <div class="amara-resort-title-text">Villas at Poco Diablo</div>
+                        <span class="amara-resort-title-house">Апартаменты</span>
+                        <span class="amara-resort-title-price-2">От 2000 Р.</span>
+                        <div class="amara-resort-title-button">
+                            <button class="amara-resort-title-button-01" type="button">Подробнее</button>
+                            <button class="amara-resort-title-button-02" type="button">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="amara-resort-zvezda">
+                <img class="amara-resort-zvezda-one" src="img/zvezda.svg" alt="photo">
+                <img class="amara-resort-zvezda-one" src="img/zvezda.svg" alt="photo">
+                <div class="amara-resort-zvezda-button">
+                    <button class="amara-resort-zvezda-button-4" type="button">Рейтинг: 9,2</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-tel">
+            ТЕЛ: +7(495) 666-01-66
+        </div>
+        <div class="footer-social">
+            <div class="socila-border">
+                <a href="#"><img class="twitter-logo" src="img/twitter.svg" alt="twitter"></a>
+            </div>
+            <div class="socila-border">
+                <a href="#"><img class="facbook-logo" src="img/facbook.svg" alt="facbook"></a>
+            </div>
+            <div class="socila-border">
+                <a href="#"><img class="youtube-logo" src="img/youtube.svg" alt="youtube"></a>
+            </div>
+        </div>
+        <div class="footer-logo">
+            #visitSEDONA
+        </div>
+    </footer>
+</div>
+<script src="libs/nouislider/nouislider.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
